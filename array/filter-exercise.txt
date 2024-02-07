@@ -35,3 +35,21 @@
 2. Get characters with height less than 200
 3. Get all male characters
 4. Get all female characters
+
+
+/*
+    const input = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    const odd = checkWheatherElementsOddOrEven( input, 'odd' );
+    const even = checkWheatherElementsOddOrEven( input, 'even' );
+
+    function checkWheatherElementsOddOrEven (array, elementType) {
+
+    }
+
+    Write a function which returns odd/even numbers and store into odd/even array.
+*/
+
+/*
+    Sum of every positive element
+    const input = [1, -4, 12, 0, -3, 29, -150];
+*/

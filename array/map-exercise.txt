@@ -29,9 +29,101 @@
             gender: 'male',
         },
     ];
+    1. Get an array of all names
+    2. Get an array of all heights
+    3. Get an array of objects with just name and height properties
+    4. Get an array of all first names
 */
 
-1. Get an array of all names
-2. Get an array of all heights
-3. Get an array of objects with just name and height properties
-4. Get an array of all first names
+/*
+    Square the value of every element in the array.
+    const input = [1, 2, 3, 4, 5];
+    // Math.pow() can be helpful
+*/
+
+/*
+    Check wheather number is divisible by 2 or not;
+    const input = [1, 2, 3, 4, 5];
+*/
+
+/*
+    Get name initials (Get first character of each name)
+    const input = "George Raymond Richard Martin";
+*/
+
+/*
+    Find the difference in age between the oldest and youngest family members, 
+    and return their respective ages and the age difference.
+    const input = [
+        {
+            name: "John",
+            age: 13,
+        },
+        {
+            name: "Mark",
+            age: 56,
+        },
+        {
+            name: "Rachel",
+            age: 45,
+        },
+        {
+            name: "Nate",
+            age: 67,
+        },
+        {
+            name: "Jennifer",
+            age: 65,
+        },
+    ];
+
+    // output: [13, 67, 54]
+*/
+
+/*
+    Numeronyms (Take first and last character and add count of remaining characters in between)
+    const input = "Every developer likes to mix kubernetes and javascript";
+    // output: "E3y d7r l3s to mix k8s and j8t";
+*/
+
+/*
+    Uppercase Strings
+    Task: Given an array of strings, create a new array with each string converted to uppercase.
+    Steps:
+    Declare an array of strings.
+    Use the map method to create a new array with uppercase strings.
+*/
+
+/*
+    Square Even Numbers
+    Task: Given an array of numbers, create a new array with only the square of even numbers.
+    Steps:
+    Declare an array of numbers.
+    Use the map method with a conditional statement to filter and square even numbers.
+*/
+
+/*
+    Calculate Area of Rectangles
+    Task: Given an array of rectangles with width and height, create a new array with the calculated area of each rectangle.
+    Steps:
+    Declare an array of rectangles (objects with width and height).
+    Use the map method to create a new array with the calculated area for each rectangle.
+    Code:
+    const rectangles = [
+    { width: 3, height: 5 },
+    { width: 4, height: 8 },
+    { width: 2, height: 6 }
+    ];
+*/
+
+/*
+    Create HTML List
+    Task: Given an array of items, create an HTML list using the map method.
+    Steps:
+    Declare an array of items.
+    Use the map method to create an HTML list string.
+    Code:
+    const items = ['Apple', 'Banana', 'Cherry', 'Date'];
+
+    // Output: '<ul><li>Apple</li><li>Banana</li><li>Cherry</li><li>Date</li></ul>'
+*/
